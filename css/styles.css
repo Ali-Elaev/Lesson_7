@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
+body {
+   font-family: 'Oswald', sans-serif;
+}
+
+.title {
+   font-weight: 700;
+   font-size: 30px;
+}
+
+.name {
+   color: blueviolet;
+   font-size: 24px;
+}
+
+.background-color {
+   background-color: rgb(177, 128, 182);
+   width: 560px;
+   padding: 20px;
+   color: #fff;
+}
+
+.background-image {
+   background-image: url("../images/print-04.jpg");
+   width: 500px;
+   height: 500px;
+}
+
+.background {
+   background: rgb(241, 227, 32) url(../images/29072.png);
+   width: 800px;
+   height: 800px;
+}
+
+.background-repeat-r {
+   background-image: url("../images/icon-play-button.png");
+   background-repeat: repeat;
+   height: 500px;
+}
+
+.background-repeat-x {
+   background-image: url("../images/icon-play-button.png");
+   background-repeat: repeat-x;
+   height: 500px;
+}
+
+.background-repeat-y {
+   background-image: url("../images/icon-play-button.png");
+   background-repeat: repeat-y;
+   height: 500px;
+}
+
+.background-repeat-no {
+   background-image: url("../images/icon-play-button.png");
+   background-repeat: no-repeat;
+   height: 500px;
+}
+
+.background-attachment {
+   background-image: url("../images/ransparent-Images.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 660px;
+
+}
+
+.background-attachment-scroll {
+   background-image: url("../images/ransparent-Images.png");
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   height: 660px;
+
+}
+
+
+.gradient {
+   background: rgb(63,86,251);
+   background: radial-gradient(circle, rgba(63,86,251,1) 0%, rgba(212,75,137,1) 100%, rgba(252,70,107,1) 100%);
+   width: 700px;
+   height: 200px;
+}
+
+
+.background-position {
+   height: 500px;
+   background-image: url(../images/student.png);
+   background-repeat: no-repeat;
+   /* background-attachment: scroll; */
+   background-position: right 20px;
+   outline: 4px solid red;
+
+}
+
+.background-size {
+   width: 1000px;
+   height: 600px;
+   background-color: black;
+   background-image: url("../images/mtm.jpg");
+   background-repeat: no-repeat;
+   background-size: 400px;
+}
+
+.background-size-contain {
+   width: 1000px;
+   height: 600px;
+   background-color: black;
+   background-image: url("../images/mtm.jpg");
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.background-size-cover {
+   width: 1000px;
+   height: 600px;
+   background-color: black;
+   background-image: url("../images/mtm.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.list-one__item {
+   background: url("../images/check.svg") 0 3.5px no-repeat;
+   list-style: none;
+   padding: 0 0 0 25px;
+   margin-bottom: 5px;
+}
+
+.list-two__item {
+   list-style: none;
+   font-size: 30px;
+   background-image: url("../images/marker.svg");
+   background-repeat: no-repeat;
+   background-position: 0 0;
+   background-size: 300px;
+   min-height: 300px;
+   padding: 50px 0 0 300px;
+}
+
+.page {
+   background: linear-gradient(180deg, rgba(131,58,180,0) 0%, rgba(255,255,255,1) 100%), url('../images/lev.jpg') center / cover no-repeat;
+   height: 924px;
+}
